@@ -29,7 +29,7 @@ public class SearchCourseTestCase extends DriverSetup {
 
 	@BeforeClass(groups = { "Regression" })
 	public void beforeClass() throws Exception {
-		logger = report.createTest("Search coursename!...");
+		logger = report.createTest("Search coursename Test Case");
 		DriverSetup dri = new DriverSetup();
 		driver = dri.setupDriver();
 
@@ -43,32 +43,37 @@ public class SearchCourseTestCase extends DriverSetup {
 
 	@Test(priority = 1, groups = { "Regression" })
 	public void openWebSite() throws IOException {
-		logger.log(Status.INFO, "Openwebsite");
+		logger.log(Status.INFO, "Website is opening...");
 		String driverpath = System.getProperty("user.dir");
 		FileInputStream fis = new FileInputStream(driverpath + "\\Resources\\config.properties");
 		Properties p;
 		p = new Properties();
 		p.load(fis);
 		driver.get(p.getProperty("url"));
-		logger.log(Status.PASS, "Done");
+		logger.log(Status.PASS, "Website is opened");
 	}
 
 	@Test(priority = 2, groups = { "Regression" })
 	public static void execution() throws InterruptedException, IOException {
 
-		logger.log(Status.INFO, "search course");
+		logger.log(Status.INFO, "Searching Web Development Course");
 		String driverpath = System.getProperty("user.dir");
 		FileInputStream fis = new FileInputStream(driverpath + "\\Resources\\config.properties");
 		Properties p;
 		p = new Properties();
 		p.load(fis);
 
-		String parentwindow = driver.getWindowHandle();
+		
 
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		Pom.getCoursename().sendKeys(ExcelUtils.getCellValue(path, "InputData", 1, 1));
 
 		Pom.getCoursenameclick().click();
+		logger.log(Status.PASS, "Web Development Courses is searched");
+	}
+	@Test(priority = 3, groups = { "Regression" })
+	public void selectLevels() {
+		logger.log(Status.INFO, "Selection of different filters");
 		Pom.getLang().click();
 		Pom.getLangclick().click();
 
@@ -77,7 +82,11 @@ public class SearchCourseTestCase extends DriverSetup {
 
 		Pom.getLearning().click();
 		Pom.getLearningclick().click();
-
+		logger.log(Status.PASS, "different filters is selected");
+	}
+	@Test(priority = 4, groups = { "Regression" })
+	public void courseDetails() throws Exception {
+		logger.log(Status.INFO, "Fetching course details");
 		String firstcoursename = driver.findElement(By.xpath(
 				"/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"))
 				.getText();
@@ -98,6 +107,7 @@ public class SearchCourseTestCase extends DriverSetup {
 		driver.findElement(By.xpath(
 				"/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"))
 				.click();
+		String parentwindow = driver.getWindowHandle();
 		Set<String> fcourse = driver.getWindowHandles();
 		for (String i : fcourse) {
 			if (!i.contentEquals(parentwindow)) {
@@ -134,13 +144,14 @@ public class SearchCourseTestCase extends DriverSetup {
 			}
 
 			driver.switchTo().window(parentwindow);
-			logger.log(Status.PASS, "Done");
+			logger.log(Status.PASS, "Course Details fetched Succesfully");
 		}
 
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 5)
 	public void screenshot() throws Exception {
 		Screenshot.takeScreenShot("SearchCourse");
+		logger.log(Status.PASS, "ScreenShot taken Succesfully");
 	}
 }

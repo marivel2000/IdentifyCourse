@@ -27,7 +27,7 @@ public class FormFillingTestCase extends DriverSetup{
 	static String path=System.getProperty("user.dir");
 	@BeforeClass(groups = { "Regression" })
 	public void beforeClass() throws Exception {
-		logger=report.createTest("Form filling!...");
+		logger=report.createTest("Form filling TestCase");
 		DriverSetup dri = new DriverSetup();
 		driver = dri.setupDriver();
 	}
@@ -39,61 +39,70 @@ public class FormFillingTestCase extends DriverSetup{
 
 	@Test(priority = 1, groups = { "Regression" })
 	public void openWebSite() throws IOException {
-		logger.log(Status.INFO, "openwebsite!....");
+		logger.log(Status.INFO, "Website is Opening ...");
 		String driverpath=System.getProperty("user.dir");
 	    FileInputStream fis=new FileInputStream(driverpath+"\\Resources\\config.properties");
 	    Properties p;
 	    p=new Properties();
 		p.load(fis);
 		driver.get(p.getProperty("url"));
-		logger.log(Status.PASS, "Done");
+		logger.log(Status.PASS, "Website is Opened...");
 	}
 	  
 
 	@Test(priority=2,groups= {"Smoke"})
 	public void enterprise() 
 	{
-		logger.log(Status.INFO, "Enterprise!....");
+		logger.log(Status.INFO, "For Enterprise is selected");
 		Pom.enterprise().click();
+		logger.log(Status.PASS, "For Enterprise page is Redirected");
+	}
+	@Test(priority=3,groups= {"Smoke"})
+	public void products() {
+		logger.log(Status.INFO, "cursor is placed on products menu");
 		Actions action = new Actions(driver);
 		WebElement ProductHover = Pom.products();
 		action.moveToElement(ProductHover);
 		action.build().perform();
 		Pom.forcampus().click();
+		logger.log(Status.PASS, "For Campus is selected");
+	}
+	@Test(priority=4,groups= {"Smoke"})
+	public void forCampus() {
+		logger.log(Status.INFO, "For Campus page is redirected");
 		ArrayList<String> list = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(list.get(1));
 		WebElement element1=Pom.transform();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", element1);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		logger.log(Status.PASS, "Done");
+		logger.log(Status.PASS, "Ready to Transform your campus form is displayed");
 	}
 
-	@Test(priority=3,groups= {"Smoke"})
+	@Test(priority=5,groups= {"Smoke"})
 	public void formfilling()
 	{
-		logger.log(Status.INFO, "formfilling");
+		logger.log(Status.INFO, "Filling of Form is Started");
 		Pom.firstName().sendKeys(ExcelUtils.getCellValue(path, "InputData", 3, 1));
 		Pom.lastName().sendKeys(ExcelUtils.getCellValue(path, "InputData", 4, 1));
-		
 		Select function = new Select(Pom.jobFunction());
-		function.selectByVisibleText("Dean");
+		function.selectByVisibleText(ExcelUtils.getCellValue(path, "InputData", 5, 1));
 		Pom.jobTitle().sendKeys(ExcelUtils.getCellValue(path, "InputData", 6, 1));
 		Pom.mail().sendKeys(ExcelUtils.getCellValue(path, "InputData", 7, 1));
 		Pom.Phone().sendKeys(ExcelUtils.getCellValue(path, "InputData", 8, 1));
 		Pom.Company().sendKeys(ExcelUtils.getCellValue(path, "InputData", 9, 1));
 		Select ins_type = new Select(Pom.institutionType());
-		ins_type.selectByVisibleText("Government");
+		ins_type.selectByVisibleText(ExcelUtils.getCellValue(path, "InputData", 10, 1));
 		Select dis=new Select(Pom.primaryDiscipline());
-		dis.selectByVisibleText("Business");
+		dis.selectByVisibleText(ExcelUtils.getCellValue(path, "InputData", 11, 1));
 		Select country=new Select(Pom.Country());
-		country.selectByVisibleText("India");
+		country.selectByVisibleText(ExcelUtils.getCellValue(path, "InputData", 12, 1));
 		Pom.help().sendKeys(ExcelUtils.getCellValue(path, "InputData", 13, 1));
 		Pom.submitButton().click();
 		System.out.println(Pom.email().getText());
-		logger.log(Status.PASS, "Done");
+		logger.log(Status.PASS, "Form filled Succesfully");
 	}
-	@Test(priority=4)
+	@Test(priority=6)
 	public void screenshot() throws Exception
 	{
 		Screenshot.takeScreenShot("Formfilling");

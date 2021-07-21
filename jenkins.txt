@@ -1,0 +1,489 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/marivel2000/IdentifyCourse.git # timeout=10
+Fetching upstream changes from https://github.com/marivel2000/IdentifyCourse.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.2'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/marivel2000/IdentifyCourse.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 92542b0eda32a8193c8fc09687cccedee7bf2f92 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 92542b0eda32a8193c8fc09687cccedee7bf2f92 # timeout=10
+Commit message: "Hackathon"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 92542b0eda32a8193c8fc09687cccedee7bf2f92 # timeout=10
+[IdentifyCourse] $ cmd.exe /C "mvn -f pom.xml clean install && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.selenium.webdriver:seelniumwebdriver >--------------
+[INFO] Building seelniumwebdriver 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ seelniumwebdriver ---
+[INFO] Deleting C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ seelniumwebdriver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ seelniumwebdriver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ seelniumwebdriver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ seelniumwebdriver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ seelniumwebdriver ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41481
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1626855969.654][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jul 21, 2021 1:56:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Must be valid email.
+example@yourdomain.com
+Screenshot taken successfully
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 3220
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1626856038.127][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jul 21, 2021 1:57:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+English
+(1529)
+Spanish
+(801)
+Russian
+(785)
+French
+(729)
+Portuguese (Portugal)
+(670)
+Arabic
+(594)
+German
+(587)
+Vietnamese
+(585)
+Italian
+(558)
+Chinese (China)
+(168)
+Korean
+(153)
+Portuguese (Brazil)
+(75)
+Japanese
+(68)
+Turkish
+(68)
+Persian
+(47)
+Chinese (Traditional)
+(44)
+Greek
+(24)
+Ukrainian
+(20)
+Portuguese
+(17)
+Thai
+(17)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)
+Swedish
+(1)
+Intermediate
+(746)
+Beginner
+(704)
+Mixed
+(205)
+Advanced
+(74)
+Screenshot taken successfully
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41558
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1626856085.037][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jul 21, 2021 1:58:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+FirstName is:Introduction to Web Development
+secondName is:Programming Foundations with JavaScript, HTML and CSS
+FirstReview is:4.7 SecondReview is4.6
+FirstcoursenamehoursApprox. 22 hours to complete
+secondcoursenamehoursApprox. 33 hours to complete
+Screenshot taken successfully
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 48926
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1626856149.637][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jul 21, 2021 1:59:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Succesfully opened BaseUrl
+Successfully located the search textbox
+Successfully entered the course name
+Successfully selected the language
+Successfully selected the level
+FirstName is:Web Design for Everybody: Basics of Web Development & Coding
+secondName is:Introduction to Web Development
+FirstReview is:4.7 SecondReview is4.7
+FirstcoursenamehoursApproximately 6 months to complete
+Suggested pace of 3 hours/week
+secondcoursenamehoursEnglish
+Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish
+Succesfully navigated to the URL
+Successfully searched for the course
+English
+(1529)
+Spanish
+(801)
+Russian
+(785)
+French
+(729)
+Portuguese (Portugal)
+(670)
+Arabic
+(594)
+German
+(587)
+Vietnamese
+(585)
+Italian
+(558)
+Chinese (China)
+(168)
+Korean
+(153)
+Portuguese (Brazil)
+(75)
+Japanese
+(68)
+Turkish
+(68)
+Persian
+(47)
+Chinese (Traditional)
+(44)
+Greek
+(24)
+Ukrainian
+(20)
+Portuguese
+(17)
+Thai
+(17)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)
+Swedish
+(1)
+Successfully displayed all the language
+Intermediate
+(746)
+Beginner
+(704)
+Mixed
+(205)
+Advanced
+(74)
+Successfully displayed all the level
+Succesfully clicked enterprise
+Succesfully clicked for campus
+Succesfully transformed
+first name entered
+last name entered
+job function selected
+job title entered
+mail entered
+Phone number entered
+Company name entered
+institutionType selected
+primary Discipline selected
+Country selected
+helped
+All testcases succeeded
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 323.15 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ seelniumwebdriver ---
+[INFO] Building jar: C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\target\seelniumwebdriver-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ seelniumwebdriver ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 578 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 2.7/19 kB
+Progress (1): 5.5/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 11/19 kB 
+Progress (1): 14/19 kB
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 893 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 2.7/5.0 kB
+Progress (1): 5.0 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 5.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 2.7/7.2 kB
+Progress (1): 5.5/7.2 kB
+Progress (1): 7.2 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (7.2 kB at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 2.7/7.3 kB
+Progress (1): 5.5/7.3 kB
+Progress (1): 7.3 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (7.3 kB at 3.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 2.7/12 kB
+Progress (1): 5.5/12 kB
+Progress (1): 8.2/12 kB
+Progress (1): 11/12 kB 
+Progress (1): 12 kB   
+Progress (2): 12 kB | 2.7/230 kB
+Progress (2): 12 kB | 5.5/230 kB
+Progress (2): 12 kB | 8.2/230 kB
+Progress (2): 12 kB | 11/230 kB 
+Progress (2): 12 kB | 14/230 kB
+Progress (2): 12 kB | 16/230 kB
+Progress (2): 12 kB | 19/230 kB
+Progress (2): 12 kB | 22/230 kB
+Progress (2): 12 kB | 25/230 kB
+Progress (2): 12 kB | 27/230 kB
+Progress (2): 12 kB | 30/230 kB
+Progress (2): 12 kB | 33/230 kB
+Progress (2): 12 kB | 36/230 kB
+Progress (2): 12 kB | 38/230 kB
+                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 5.4 kB/s)
+Progress (1): 41/230 kB
+Progress (1): 44/230 kB
+Progress (1): 47/230 kB
+Progress (1): 49/230 kB
+Progress (1): 52/230 kB
+Progress (1): 55/230 kB
+Progress (1): 58/230 kB
+Progress (1): 60/230 kB
+Progress (1): 63/230 kB
+Progress (1): 66/230 kB
+Progress (1): 69/230 kB
+Progress (1): 71/230 kB
+Progress (1): 74/230 kB
+Progress (1): 77/230 kB
+Progress (1): 80/230 kB
+Progress (1): 82/230 kB
+Progress (1): 85/230 kB
+Progress (1): 88/230 kB
+Progress (1): 90/230 kB
+Progress (1): 93/230 kB
+Progress (1): 96/230 kB
+Progress (1): 99/230 kB
+Progress (1): 101/230 kB
+Progress (1): 104/230 kB
+Progress (1): 107/230 kB
+Progress (1): 110/230 kB
+Progress (1): 112/230 kB
+Progress (1): 115/230 kB
+Progress (1): 118/230 kB
+Progress (1): 121/230 kB
+Progress (1): 123/230 kB
+Progress (1): 126/230 kB
+Progress (1): 129/230 kB
+Progress (1): 132/230 kB
+Progress (1): 134/230 kB
+Progress (1): 137/230 kB
+Progress (1): 140/230 kB
+Progress (1): 143/230 kB
+Progress (1): 145/230 kB
+Progress (1): 148/230 kB
+Progress (1): 151/230 kB
+Progress (1): 154/230 kB
+Progress (1): 156/230 kB
+Progress (1): 159/230 kB
+Progress (1): 162/230 kB
+Progress (1): 165/230 kB
+Progress (1): 167/230 kB
+Progress (1): 170/230 kB
+Progress (1): 173/230 kB
+Progress (1): 176/230 kB
+Progress (1): 178/230 kB
+Progress (1): 181/230 kB
+Progress (1): 184/230 kB
+Progress (1): 187/230 kB
+Progress (1): 189/230 kB
+Progress (1): 192/230 kB
+Progress (1): 195/230 kB
+Progress (1): 198/230 kB
+Progress (1): 200/230 kB
+Progress (1): 203/230 kB
+Progress (1): 206/230 kB
+Progress (1): 209/230 kB
+Progress (1): 211/230 kB
+Progress (1): 214/230 kB
+Progress (1): 217/230 kB
+Progress (1): 220/230 kB
+Progress (1): 222/230 kB
+Progress (1): 225/230 kB
+Progress (1): 228/230 kB
+Progress (1): 230 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 46 kB/s)
+[INFO] Installing C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\target\seelniumwebdriver-0.0.1-SNAPSHOT.jar to C:\Users\MARIVEL\.m2\repository\org\selenium\webdriver\seelniumwebdriver\0.0.1-SNAPSHOT\seelniumwebdriver-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\MARIVEL\.jenkins\workspace\IdentifyCourse\pom.xml to C:\Users\MARIVEL\.m2\repository\org\selenium\webdriver\seelniumwebdriver\0.0.1-SNAPSHOT\seelniumwebdriver-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:48 min
+[INFO] Finished at: 2021-07-21T14:01:48+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

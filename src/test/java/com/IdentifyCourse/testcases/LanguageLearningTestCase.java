@@ -28,7 +28,7 @@ public class LanguageLearningTestCase extends DriverSetup{
 	String path = System.getProperty("user.dir");
 	@BeforeClass(groups = { "Regression" })
 	public void beforeClass() throws Exception {
-		logger=report.createTest("Language learning!...");
+		logger=report.createTest("Language learning Test Case");
 		DriverSetup dri = new DriverSetup();
 		driver = dri.setupDriver();
 	}
@@ -41,27 +41,27 @@ public class LanguageLearningTestCase extends DriverSetup{
 
 	@Test(priority = 1, groups = { "Regression" })
 	public void openWebSite() throws IOException {
-		logger.log(Status.INFO, "Openwebsite");
+		logger.log(Status.INFO, "Website is opening...");
 		String driverpath=System.getProperty("user.dir");
 	    FileInputStream fis=new FileInputStream(driverpath+"\\Resources\\config.properties");
 	    Properties p;
 	    p=new Properties();
 		p.load(fis);
 		driver.get(p.getProperty("url"));
-		logger.log(Status.PASS, "Navigated Back to Home page");
+		logger.log(Status.PASS, "Website is opened....");
 	}
-	@Test(priority=2,groups= {"Smoke"})
-	public void secondCourse() throws IOException 
+	@Test(priority=2,groups= {"Smoke"},dataProvider ="test-data")
+	public void secondCourse(String keyvalue) throws IOException 
 	{
 		
-		logger.log(Status.INFO, "Second course");
-		Pom.searchBar().sendKeys(ExcelUtils.getCellValue(path, "InputData", 2, 1) + Keys.ENTER);
-		logger.log(Status.PASS, "Searched Course 2");
+		logger.log(Status.INFO, "Searching for Language learning Courses");
+		Pom.searchBar().sendKeys(keyvalue + Keys.ENTER);
+		logger.log(Status.PASS, "Language Learning courses displayed succesfully");
 	}
 	
 	@Test(priority = 3,groups= {"Smoke"})
 	public void selectLanguage2() {
-		logger.log(Status.INFO, "SELECT LANGUAGE");
+		logger.log(Status.INFO, "Language Option is selected");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Pom.languageBtn().click();
 		Pom.showAllButton().click();
@@ -71,13 +71,13 @@ public class LanguageLearningTestCase extends DriverSetup{
 		
 		Pom.closeBtn().click();
 		
-	logger.log(Status.PASS, "SELECTLANGUAGE");
+	logger.log(Status.PASS,"All languages are displayed correctly");
 	
 	}
 
 	@Test(priority = 4,groups= {"Smoke"})
 	public void selectLevel2() {
-		logger.log(Status.INFO, "SELECTLEVEL 2");
+		logger.log(Status.INFO, "Level Option is selected");
 		Pom.levelsBtn().click();
 		List<WebElement> allLevels=Pom.allLevels();
 		int size=allLevels.size()-1;
@@ -90,10 +90,17 @@ public class LanguageLearningTestCase extends DriverSetup{
 				break;	
 		}
 
-		logger.log(Status.PASS, "SELECTLEVEL 2");
+		logger.log(Status.PASS, "All Levels are displayed correctly");
 		
 		
 	}
+	
+	@DataProvider(name = "test-data")
+  	public static Object[][] dataProvFunc(){
+        	return new Object[][]{
+              	{"Language learning"}
+        	};
+  	}
 	@Test(priority=5)
 	public void screenshot() throws Exception
 	{
