@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.Hackathon.TestScenerio" time="57.417" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Java\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\MARIVEL\Downloads\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B package"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\MARIVEL\eclipse-workspace\HackathonIdentifycourses\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MARIVEL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Users\MARIVEL\Downloads\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="MARIVEL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MARIVEL\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\MARIVEL\eclipse-workspace\HackathonIdentifycourses"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MARIVEL\eclipse-workspace\HackathonIdentifycourses"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\MARIVEL\Downloads\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:/Java/eclipse-jee-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;D:/Java/eclipse-jee-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-16\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MARIVEL\AppData\Local\Microsoft\WindowsApps;;C:\Users\MARIVEL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MARIVEL\AppData\Roaming\npm;D:\Java\eclipse-jee-2021-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="classworlds.conf" value="C:\Users\MARIVEL\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9588521149304047426.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="openWebSite" classname="com.Hackathon.TestScenerio" time="3.411"/>
+  <testcase name="clickSearchTextbox" classname="com.Hackathon.TestScenerio" time="0.127"/>
+  <testcase name="sendCourseName" classname="com.Hackathon.TestScenerio" time="4.918"/>
+  <testcase name="selectLang" classname="com.Hackathon.TestScenerio" time="3.158"/>
+  <testcase name="selectLevel" classname="com.Hackathon.TestScenerio" time="0.695"/>
+  <testcase name="firstCourse" classname="com.Hackathon.TestScenerio" time="10.925"/>
+  <testcase name="navigateToUrl" classname="com.Hackathon.TestScenerio" time="2.307"/>
+  <testcase name="openLangWebSite" classname="com.Hackathon.TestScenerio" time="3.233"/>
+  <testcase name="displayLanguage" classname="com.Hackathon.TestScenerio" time="5.038"/>
+  <testcase name="diaplayLevel" classname="com.Hackathon.TestScenerio" time="0.286"/>
+  <testcase name="openEnterprise" classname="com.Hackathon.TestScenerio" time="8.755"/>
+  <testcase name="openForCampus" classname="com.Hackathon.TestScenerio" time="0.421"/>
+  <testcase name="getStarted" classname="com.Hackathon.TestScenerio" time="6.034"/>
+  <testcase name="FirstName" classname="com.Hackathon.TestScenerio" time="1.342"/>
+  <testcase name="lastName" classname="com.Hackathon.TestScenerio" time="0.238"/>
+  <testcase name="jobFunction" classname="com.Hackathon.TestScenerio" time="0.231"/>
+  <testcase name="jobTitle" classname="com.Hackathon.TestScenerio" time="0.188"/>
+  <testcase name="mail" classname="com.Hackathon.TestScenerio" time="0.18"/>
+  <testcase name="Phone" classname="com.Hackathon.TestScenerio" time="0.254"/>
+  <testcase name="Company" classname="com.Hackathon.TestScenerio" time="0.185"/>
+  <testcase name="institutionType" classname="com.Hackathon.TestScenerio" time="0.17"/>
+  <testcase name="primaryDiscipline" classname="com.Hackathon.TestScenerio" time="0.174"/>
+  <testcase name="Country" classname="com.Hackathon.TestScenerio" time="0.21"/>
+  <testcase name="help" classname="com.Hackathon.TestScenerio" time="0.231"/>
+  <testcase name="submitButton" classname="com.Hackathon.TestScenerio" time="0.09"/>
+</testsuite>

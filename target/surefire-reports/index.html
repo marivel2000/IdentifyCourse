@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="Company">Company</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="Country">Country</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="FirstName">FirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="Phone">Phone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="clickSearchTextbox">clickSearchTextbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="diaplayLevel">diaplayLevel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="displayLanguage">displayLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="firstCourse">firstCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="getStarted">getStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="help">help</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="institutionType">institutionType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="jobFunction">jobFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="jobTitle">jobTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="lastName">lastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="mail">mail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="navigateToUrl">navigateToUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="openEnterprise">openEnterprise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="openForCampus">openForCampus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="openLangWebSite">openLangWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="openWebSite">openWebSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="primaryDiscipline">primaryDiscipline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="selectLang">selectLang</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="selectLevel">selectLevel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="sendCourseName">sendCourseName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.Hackathon.TestScenerio" class="method navigator-link" hash-for-method="submitButton">submitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Hackathon.TestScenerio</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Company">
+                  </a> <!-- Company -->
+                  <span class="method-name">Company</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Country">
+                  </a> <!-- Country -->
+                  <span class="method-name">Country</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirstName">
+                  </a> <!-- FirstName -->
+                  <span class="method-name">FirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Phone">
+                  </a> <!-- Phone -->
+                  <span class="method-name">Phone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearchTextbox">
+                  </a> <!-- clickSearchTextbox -->
+                  <span class="method-name">clickSearchTextbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="diaplayLevel">
+                  </a> <!-- diaplayLevel -->
+                  <span class="method-name">diaplayLevel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayLanguage">
+                  </a> <!-- displayLanguage -->
+                  <span class="method-name">displayLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstCourse">
+                  </a> <!-- firstCourse -->
+                  <span class="method-name">firstCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getStarted">
+                  </a> <!-- getStarted -->
+                  <span class="method-name">getStarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="help">
+                  </a> <!-- help -->
+                  <span class="method-name">help</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="institutionType">
+                  </a> <!-- institutionType -->
+                  <span class="method-name">institutionType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobFunction">
+                  </a> <!-- jobFunction -->
+                  <span class="method-name">jobFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobTitle">
+                  </a> <!-- jobTitle -->
+                  <span class="method-name">jobTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lastName">
+                  </a> <!-- lastName -->
+                  <span class="method-name">lastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mail">
+                  </a> <!-- mail -->
+                  <span class="method-name">mail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToUrl">
+                  </a> <!-- navigateToUrl -->
+                  <span class="method-name">navigateToUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openEnterprise">
+                  </a> <!-- openEnterprise -->
+                  <span class="method-name">openEnterprise</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openForCampus">
+                  </a> <!-- openForCampus -->
+                  <span class="method-name">openForCampus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openLangWebSite">
+                  </a> <!-- openLangWebSite -->
+                  <span class="method-name">openLangWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openWebSite">
+                  </a> <!-- openWebSite -->
+                  <span class="method-name">openWebSite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="primaryDiscipline">
+                  </a> <!-- primaryDiscipline -->
+                  <span class="method-name">primaryDiscipline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLang">
+                  </a> <!-- selectLang -->
+                  <span class="method-name">selectLang</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLevel">
+                  </a> <!-- selectLevel -->
+                  <span class="method-name">selectLevel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendCourseName">
+                  </a> <!-- sendCourseName -->
+                  <span class="method-name">sendCourseName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitButton">
+                  </a> <!-- submitButton -->
+                  <span class="method-name">submitButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Hackathon.TestScenerio&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Company</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Country</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FirstName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Phone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSearchTextbox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">diaplayLevel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">displayLanguage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">firstCourse</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getStarted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">help</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">institutionType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">jobFunction</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">jobTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lastName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigateToUrl</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openEnterprise</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openForCampus</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openLangWebSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openWebSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">primaryDiscipline</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectLang</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectLevel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sendCourseName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">submitButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'firstCourse')
+data.setCell(0, 2, 'com.Hackathon.TestScenerio')
+data.setCell(0, 3, 10926);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openEnterprise')
+data.setCell(1, 2, 'com.Hackathon.TestScenerio')
+data.setCell(1, 3, 8754);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getStarted')
+data.setCell(2, 2, 'com.Hackathon.TestScenerio')
+data.setCell(2, 3, 6034);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'displayLanguage')
+data.setCell(3, 2, 'com.Hackathon.TestScenerio')
+data.setCell(3, 3, 5037);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sendCourseName')
+data.setCell(4, 2, 'com.Hackathon.TestScenerio')
+data.setCell(4, 3, 4918);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'openWebSite')
+data.setCell(5, 2, 'com.Hackathon.TestScenerio')
+data.setCell(5, 3, 3410);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'openLangWebSite')
+data.setCell(6, 2, 'com.Hackathon.TestScenerio')
+data.setCell(6, 3, 3232);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectLang')
+data.setCell(7, 2, 'com.Hackathon.TestScenerio')
+data.setCell(7, 3, 3157);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'navigateToUrl')
+data.setCell(8, 2, 'com.Hackathon.TestScenerio')
+data.setCell(8, 3, 2305);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FirstName')
+data.setCell(9, 2, 'com.Hackathon.TestScenerio')
+data.setCell(9, 3, 1344);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectLevel')
+data.setCell(10, 2, 'com.Hackathon.TestScenerio')
+data.setCell(10, 3, 694);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'openForCampus')
+data.setCell(11, 2, 'com.Hackathon.TestScenerio')
+data.setCell(11, 3, 421);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'diaplayLevel')
+data.setCell(12, 2, 'com.Hackathon.TestScenerio')
+data.setCell(12, 3, 286);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Phone')
+data.setCell(13, 2, 'com.Hackathon.TestScenerio')
+data.setCell(13, 3, 254);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'lastName')
+data.setCell(14, 2, 'com.Hackathon.TestScenerio')
+data.setCell(14, 3, 239);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'jobFunction')
+data.setCell(15, 2, 'com.Hackathon.TestScenerio')
+data.setCell(15, 3, 232);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'help')
+data.setCell(16, 2, 'com.Hackathon.TestScenerio')
+data.setCell(16, 3, 231);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Country')
+data.setCell(17, 2, 'com.Hackathon.TestScenerio')
+data.setCell(17, 3, 209);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'jobTitle')
+data.setCell(18, 2, 'com.Hackathon.TestScenerio')
+data.setCell(18, 3, 189);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Company')
+data.setCell(19, 2, 'com.Hackathon.TestScenerio')
+data.setCell(19, 3, 185);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'mail')
+data.setCell(20, 2, 'com.Hackathon.TestScenerio')
+data.setCell(20, 3, 180);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'primaryDiscipline')
+data.setCell(21, 2, 'com.Hackathon.TestScenerio')
+data.setCell(21, 3, 173);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'institutionType')
+data.setCell(22, 2, 'com.Hackathon.TestScenerio')
+data.setCell(22, 3, 170);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'clickSearchTextbox')
+data.setCell(23, 2, 'com.Hackathon.TestScenerio')
+data.setCell(23, 3, 129);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'submitButton')
+data.setCell(24, 2, 'com.Hackathon.TestScenerio')
+data.setCell(24, 3, 89);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Hackathon.TestScenerio</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openWebSite</span>
+                <span class="method-start">2766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSearchTextbox</span>
+                <span class="method-start">6177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendCourseName</span>
+                <span class="method-start">6306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectLang</span>
+                <span class="method-start">11225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectLevel</span>
+                <span class="method-start">14383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">firstCourse</span>
+                <span class="method-start">15078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigateToUrl</span>
+                <span class="method-start">26005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openLangWebSite</span>
+                <span class="method-start">28312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayLanguage</span>
+                <span class="method-start">31545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">diaplayLevel</span>
+                <span class="method-start">36583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openEnterprise</span>
+                <span class="method-start">36869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">openForCampus</span>
+                <span class="method-start">45623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getStarted</span>
+                <span class="method-start">46046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirstName</span>
+                <span class="method-start">52080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lastName</span>
+                <span class="method-start">53424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobFunction</span>
+                <span class="method-start">53663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobTitle</span>
+                <span class="method-start">53895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mail</span>
+                <span class="method-start">54086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Phone</span>
+                <span class="method-start">54266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Company</span>
+                <span class="method-start">54521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">institutionType</span>
+                <span class="method-start">54706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">primaryDiscipline</span>
+                <span class="method-start">54876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Country</span>
+                <span class="method-start">55050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">help</span>
+                <span class="method-start">55261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitButton</span>
+                <span class="method-start">55492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">55582 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

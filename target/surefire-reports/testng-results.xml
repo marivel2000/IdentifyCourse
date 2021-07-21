@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-20T11:46:43Z" name="Surefire suite" finished-at="2021-07-20T11:47:40Z" duration-ms="56807">
+    <groups>
+      <group name="Regression">
+        <method signature="TestScenerio.Company()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="Company" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.Country()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="Country" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.FirstName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="FirstName" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.Phone()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="Phone" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.clickSearchTextbox()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="clickSearchTextbox" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.diaplayLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="diaplayLevel" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.displayLanguage()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="displayLanguage" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.firstCourse()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="firstCourse" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.getStarted()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="getStarted" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.help()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="help" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.institutionType()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="institutionType" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.jobFunction()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="jobFunction" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.jobTitle()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="jobTitle" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.lastName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="lastName" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.mail()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="mail" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.navigateToUrl()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="navigateToUrl" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.openEnterprise()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openEnterprise" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.openForCampus()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openForCampus" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.openLangWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openLangWebSite" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.openWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openWebSite" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.primaryDiscipline()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="primaryDiscipline" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.selectLang()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="selectLang" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.selectLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="selectLevel" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.sendCourseName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="sendCourseName" class="com.Hackathon.TestScenerio"/>
+        <method signature="TestScenerio.submitButton()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="submitButton" class="com.Hackathon.TestScenerio"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-07-20T11:46:43Z" name="Surefire test" finished-at="2021-07-20T11:47:40Z" duration-ms="56807">
+      <class name="com.Hackathon.TestScenerio">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:43Z" name="beforeClass" finished-at="2021-07-20T17:16:46Z" duration-ms="2756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="openWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:46Z" name="openWebSite" finished-at="2021-07-20T17:16:49Z" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method signature="clickSearchTextbox()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:49Z" name="clickSearchTextbox" finished-at="2021-07-20T17:16:49Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchTextbox -->
+        <test-method signature="sendCourseName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:49Z" name="sendCourseName" finished-at="2021-07-20T17:16:54Z" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendCourseName -->
+        <test-method signature="selectLang()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:54Z" name="selectLang" finished-at="2021-07-20T17:16:57Z" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLang -->
+        <test-method signature="selectLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:57Z" name="selectLevel" finished-at="2021-07-20T17:16:58Z" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLevel -->
+        <test-method signature="firstCourse()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:58Z" name="firstCourse" finished-at="2021-07-20T17:17:09Z" duration-ms="10926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCourse -->
+        <test-method signature="navigateToUrl()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:09Z" name="navigateToUrl" finished-at="2021-07-20T17:17:11Z" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method signature="openLangWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:11Z" name="openLangWebSite" finished-at="2021-07-20T17:17:14Z" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLangWebSite -->
+        <test-method signature="displayLanguage()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:14Z" name="displayLanguage" finished-at="2021-07-20T17:17:19Z" duration-ms="5037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLanguage -->
+        <test-method signature="diaplayLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:19Z" name="diaplayLevel" finished-at="2021-07-20T17:17:20Z" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diaplayLevel -->
+        <test-method signature="openEnterprise()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:20Z" name="openEnterprise" finished-at="2021-07-20T17:17:28Z" duration-ms="8754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openEnterprise -->
+        <test-method signature="openForCampus()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:28Z" name="openForCampus" finished-at="2021-07-20T17:17:29Z" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openForCampus -->
+        <test-method signature="getStarted()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:29Z" name="getStarted" finished-at="2021-07-20T17:17:35Z" duration-ms="6034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method signature="FirstName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:35Z" name="FirstName" finished-at="2021-07-20T17:17:36Z" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstName -->
+        <test-method signature="lastName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:36Z" name="lastName" finished-at="2021-07-20T17:17:36Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastName -->
+        <test-method signature="jobFunction()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:36Z" name="jobFunction" finished-at="2021-07-20T17:17:37Z" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobFunction -->
+        <test-method signature="jobTitle()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="jobTitle" finished-at="2021-07-20T17:17:37Z" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobTitle -->
+        <test-method signature="mail()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="mail" finished-at="2021-07-20T17:17:37Z" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+        <test-method signature="Phone()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="Phone" finished-at="2021-07-20T17:17:37Z" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Phone -->
+        <test-method signature="Company()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="Company" finished-at="2021-07-20T17:17:37Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company -->
+        <test-method signature="institutionType()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="institutionType" finished-at="2021-07-20T17:17:38Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- institutionType -->
+        <test-method signature="primaryDiscipline()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="primaryDiscipline" finished-at="2021-07-20T17:17:38Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primaryDiscipline -->
+        <test-method signature="Country()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="Country" finished-at="2021-07-20T17:17:38Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Country -->
+        <test-method signature="help()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="help" finished-at="2021-07-20T17:17:38Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method signature="submitButton()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="submitButton" finished-at="2021-07-20T17:17:38Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButton -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="afterClass" finished-at="2021-07-20T17:17:40Z" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Hackathon.TestScenerio -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
