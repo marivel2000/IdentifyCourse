@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/***********Reading Properties from config file*********/
+
 public class ReadProperties  {
 	static Properties prop = new Properties();
 	InputStream readFile = null;

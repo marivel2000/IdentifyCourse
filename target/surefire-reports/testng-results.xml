@@ -1,148 +1,511 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="25" passed="25" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="41" passed="41">
   <reporter-output>
+    <line>
+      <![CDATA[English
+(1527)
+Spanish
+(802)
+Russian
+(788)
+French
+(731)
+Portuguese (Portugal)
+(673)
+Arabic
+(594)
+German
+(589)
+Vietnamese
+(586)
+Italian
+(559)
+Chinese (China)
+(168)
+Korean
+(154)
+Portuguese (Brazil)
+(75)
+Japanese
+(69)
+Turkish
+(67)
+Persian
+(47)
+Chinese (Traditional)
+(43)
+Greek
+(24)
+Ukrainian
+(20)
+Thai
+(17)
+Portuguese
+(16)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)]]>
+    </line>
+    <line>
+      <![CDATA[Intermediate
+(745)]]>
+    </line>
+    <line>
+      <![CDATA[Beginner
+(703)]]>
+    </line>
+    <line>
+      <![CDATA[Mixed
+(202)]]>
+    </line>
+    <line>
+      <![CDATA[Advanced
+(76)]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-07-20T11:46:43Z" name="Surefire suite" finished-at="2021-07-20T11:47:40Z" duration-ms="56807">
+  <suite name="Surefire suite" duration-ms="189766" started-at="2021-07-27T10:29:11Z" finished-at="2021-07-27T10:32:21Z">
     <groups>
       <group name="Regression">
-        <method signature="TestScenerio.Company()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="Company" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.Country()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="Country" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.FirstName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="FirstName" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.Phone()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="Phone" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.clickSearchTextbox()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="clickSearchTextbox" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.diaplayLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="diaplayLevel" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.displayLanguage()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="displayLanguage" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.firstCourse()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="firstCourse" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.getStarted()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="getStarted" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.help()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="help" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.institutionType()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="institutionType" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.jobFunction()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="jobFunction" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.jobTitle()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="jobTitle" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.lastName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="lastName" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.mail()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="mail" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.navigateToUrl()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="navigateToUrl" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.openEnterprise()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openEnterprise" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.openForCampus()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openForCampus" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.openLangWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openLangWebSite" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.openWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="openWebSite" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.primaryDiscipline()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="primaryDiscipline" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.selectLang()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="selectLang" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.selectLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="selectLevel" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.sendCourseName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="sendCourseName" class="com.Hackathon.TestScenerio"/>
-        <method signature="TestScenerio.submitButton()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" name="submitButton" class="com.Hackathon.TestScenerio"/>
+        <method signature="FormFillingTestCase.openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="openWebSite" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
+        <method signature="LanguageLearningTestCase.openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="openWebSite" class="com.IdentifyCourse.testcases.LanguageLearningTestCase"/>
+        <method signature="SearchCourseTestCase.courseDetails()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="courseDetails" class="com.IdentifyCourse.testcases.SearchCourseTestCase"/>
+        <method signature="SearchCourseTestCase.execution()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="execution" class="com.IdentifyCourse.testcases.SearchCourseTestCase"/>
+        <method signature="SearchCourseTestCase.openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="openWebSite" class="com.IdentifyCourse.testcases.SearchCourseTestCase"/>
+        <method signature="SearchCourseTestCase.selectLevels()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="selectLevels" class="com.IdentifyCourse.testcases.SearchCourseTestCase"/>
+        <method signature="TestScenerio.clickSearchTextbox()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="clickSearchTextbox" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.diaplayLevel()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="diaplayLevel" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.displayLanguage()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="displayLanguage" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.firstCourse()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="firstCourse" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.getStarted()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="getStarted" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.help()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="help" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.navigateToUrl()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="navigateToUrl" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.openEnterprise()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openEnterprise" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.openForCampus()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openForCampus" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.openLangWebSite()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openLangWebSite" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.openWebSite()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openWebSite" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.selectLang()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="selectLang" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.selectLevel()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="selectLevel" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.sendCourseName()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="sendCourseName" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.submitButton()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="submitButton" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
       </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="FormFillingTestCase.enterprise()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="enterprise" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
+        <method signature="FormFillingTestCase.forCampus()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="forCampus" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
+        <method signature="FormFillingTestCase.formfilling(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="formfilling" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
+        <method signature="FormFillingTestCase.products()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="products" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
+        <method signature="LanguageLearningTestCase.secondCourse(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="secondCourse" class="com.IdentifyCourse.testcases.LanguageLearningTestCase"/>
+        <method signature="LanguageLearningTestCase.selectLanguage2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="selectLanguage2" class="com.IdentifyCourse.testcases.LanguageLearningTestCase"/>
+        <method signature="LanguageLearningTestCase.selectLevel2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="selectLevel2" class="com.IdentifyCourse.testcases.LanguageLearningTestCase"/>
+        <method signature="TestScenerio.Company()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="Company" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.Country()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="Country" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.FirstName()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="FirstName" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.Phone()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="Phone" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.institutionType()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="institutionType" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.jobFunction()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="jobFunction" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.jobTitle()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="jobTitle" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.lastName()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="lastName" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.mail()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="mail" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+        <method signature="TestScenerio.primaryDiscipline()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="primaryDiscipline" class="com.IdentifyCourse.testcasescenario.TestScenerio"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-07-20T11:46:43Z" name="Surefire test" finished-at="2021-07-20T11:47:40Z" duration-ms="56807">
-      <class name="com.Hackathon.TestScenerio">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:43Z" name="beforeClass" finished-at="2021-07-20T17:16:46Z" duration-ms="2756" status="PASS">
+    <test name="Surefire test" duration-ms="189766" started-at="2021-07-27T10:29:11Z" finished-at="2021-07-27T10:32:21Z">
+      <class name="com.IdentifyCourse.testcases.SearchCourseTestCase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="beforeClass" is-config="true" duration-ms="1554" started-at="2021-07-27T16:00:20Z" finished-at="2021-07-27T16:00:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:46Z" name="openWebSite" finished-at="2021-07-20T17:16:49Z" duration-ms="3410" status="PASS">
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="openWebSite" duration-ms="4132" started-at="2021-07-27T16:00:22Z" finished-at="2021-07-27T16:00:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="clickSearchTextbox()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:49Z" name="clickSearchTextbox" finished-at="2021-07-20T17:16:49Z" duration-ms="129" status="PASS">
+        <test-method status="PASS" signature="execution()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="execution" duration-ms="3434" started-at="2021-07-27T16:00:26Z" finished-at="2021-07-27T16:00:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickSearchTextbox -->
-        <test-method signature="sendCourseName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:49Z" name="sendCourseName" finished-at="2021-07-20T17:16:54Z" duration-ms="4918" status="PASS">
+        </test-method> <!-- execution -->
+        <test-method status="PASS" signature="selectLevels()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="selectLevels" duration-ms="9537" started-at="2021-07-27T16:00:29Z" finished-at="2021-07-27T16:00:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendCourseName -->
-        <test-method signature="selectLang()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:54Z" name="selectLang" finished-at="2021-07-20T17:16:57Z" duration-ms="3157" status="PASS">
+        </test-method> <!-- selectLevels -->
+        <test-method status="PASS" signature="courseDetails()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="courseDetails" duration-ms="16849" started-at="2021-07-27T16:00:39Z" finished-at="2021-07-27T16:00:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectLang -->
-        <test-method signature="selectLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:57Z" name="selectLevel" finished-at="2021-07-20T17:16:58Z" duration-ms="694" status="PASS">
+        </test-method> <!-- courseDetails -->
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="screenshot" duration-ms="407" started-at="2021-07-27T16:00:56Z" finished-at="2021-07-27T16:00:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectLevel -->
-        <test-method signature="firstCourse()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:16:58Z" name="firstCourse" finished-at="2021-07-20T17:17:09Z" duration-ms="10926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstCourse -->
-        <test-method signature="navigateToUrl()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:09Z" name="navigateToUrl" finished-at="2021-07-20T17:17:11Z" duration-ms="2305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToUrl -->
-        <test-method signature="openLangWebSite()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:11Z" name="openLangWebSite" finished-at="2021-07-20T17:17:14Z" duration-ms="3232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLangWebSite -->
-        <test-method signature="displayLanguage()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:14Z" name="displayLanguage" finished-at="2021-07-20T17:17:19Z" duration-ms="5037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- displayLanguage -->
-        <test-method signature="diaplayLevel()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:19Z" name="diaplayLevel" finished-at="2021-07-20T17:17:20Z" duration-ms="286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- diaplayLevel -->
-        <test-method signature="openEnterprise()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:20Z" name="openEnterprise" finished-at="2021-07-20T17:17:28Z" duration-ms="8754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openEnterprise -->
-        <test-method signature="openForCampus()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:28Z" name="openForCampus" finished-at="2021-07-20T17:17:29Z" duration-ms="421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openForCampus -->
-        <test-method signature="getStarted()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:29Z" name="getStarted" finished-at="2021-07-20T17:17:35Z" duration-ms="6034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStarted -->
-        <test-method signature="FirstName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:35Z" name="FirstName" finished-at="2021-07-20T17:17:36Z" duration-ms="1344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstName -->
-        <test-method signature="lastName()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:36Z" name="lastName" finished-at="2021-07-20T17:17:36Z" duration-ms="239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lastName -->
-        <test-method signature="jobFunction()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:36Z" name="jobFunction" finished-at="2021-07-20T17:17:37Z" duration-ms="232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jobFunction -->
-        <test-method signature="jobTitle()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="jobTitle" finished-at="2021-07-20T17:17:37Z" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jobTitle -->
-        <test-method signature="mail()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="mail" finished-at="2021-07-20T17:17:37Z" duration-ms="180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mail -->
-        <test-method signature="Phone()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="Phone" finished-at="2021-07-20T17:17:37Z" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Phone -->
-        <test-method signature="Company()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="Company" finished-at="2021-07-20T17:17:37Z" duration-ms="185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Company -->
-        <test-method signature="institutionType()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:37Z" name="institutionType" finished-at="2021-07-20T17:17:38Z" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- institutionType -->
-        <test-method signature="primaryDiscipline()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="primaryDiscipline" finished-at="2021-07-20T17:17:38Z" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- primaryDiscipline -->
-        <test-method signature="Country()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="Country" finished-at="2021-07-20T17:17:38Z" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Country -->
-        <test-method signature="help()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="help" finished-at="2021-07-20T17:17:38Z" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- help -->
-        <test-method signature="submitButton()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="submitButton" finished-at="2021-07-20T17:17:38Z" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitButton -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Hackathon.TestScenerio@130161f7]" started-at="2021-07-20T17:17:38Z" name="afterClass" finished-at="2021-07-20T17:17:40Z" duration-ms="1215" status="PASS">
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@3b088d51]" name="afterClass" is-config="true" duration-ms="1280" started-at="2021-07-27T16:00:56Z" finished-at="2021-07-27T16:00:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.Hackathon.TestScenerio -->
+      </class> <!-- com.IdentifyCourse.testcases.SearchCourseTestCase -->
+      <class name="com.IdentifyCourse.testcasescenario.TestScenerio">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="beforeClass" is-config="true" duration-ms="1981" started-at="2021-07-27T16:00:57Z" finished-at="2021-07-27T16:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openWebSite" duration-ms="10232" started-at="2021-07-27T16:00:59Z" finished-at="2021-07-27T16:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method status="PASS" signature="clickSearchTextbox()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="clickSearchTextbox" duration-ms="136" started-at="2021-07-27T16:01:10Z" finished-at="2021-07-27T16:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchTextbox -->
+        <test-method status="PASS" signature="sendCourseName()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="sendCourseName" duration-ms="3587" started-at="2021-07-27T16:01:10Z" finished-at="2021-07-27T16:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendCourseName -->
+        <test-method status="PASS" signature="selectLang()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="selectLang" duration-ms="3983" started-at="2021-07-27T16:01:13Z" finished-at="2021-07-27T16:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLang -->
+        <test-method status="PASS" signature="selectLevel()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="selectLevel" duration-ms="740" started-at="2021-07-27T16:01:17Z" finished-at="2021-07-27T16:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLevel -->
+        <test-method status="PASS" signature="firstCourse()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="firstCourse" duration-ms="15606" started-at="2021-07-27T16:01:18Z" finished-at="2021-07-27T16:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCourse -->
+        <test-method status="PASS" signature="navigateToUrl()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="navigateToUrl" duration-ms="4617" started-at="2021-07-27T16:01:34Z" finished-at="2021-07-27T16:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method status="PASS" signature="openLangWebSite()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openLangWebSite" duration-ms="4387" started-at="2021-07-27T16:01:38Z" finished-at="2021-07-27T16:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLangWebSite -->
+        <test-method status="PASS" signature="displayLanguage()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="displayLanguage" duration-ms="8974" started-at="2021-07-27T16:01:43Z" finished-at="2021-07-27T16:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLanguage -->
+        <test-method status="PASS" signature="diaplayLevel()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="diaplayLevel" duration-ms="346" started-at="2021-07-27T16:01:52Z" finished-at="2021-07-27T16:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diaplayLevel -->
+        <test-method status="PASS" signature="openEnterprise()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openEnterprise" duration-ms="14376" started-at="2021-07-27T16:01:52Z" finished-at="2021-07-27T16:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openEnterprise -->
+        <test-method status="PASS" signature="openForCampus()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="openForCampus" duration-ms="2009" started-at="2021-07-27T16:02:06Z" finished-at="2021-07-27T16:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openForCampus -->
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="getStarted" duration-ms="6647" started-at="2021-07-27T16:02:08Z" finished-at="2021-07-27T16:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="FirstName()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="FirstName" duration-ms="1615" started-at="2021-07-27T16:02:15Z" finished-at="2021-07-27T16:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstName -->
+        <test-method status="PASS" signature="lastName()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="lastName" duration-ms="411" started-at="2021-07-27T16:02:17Z" finished-at="2021-07-27T16:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastName -->
+        <test-method status="PASS" signature="jobFunction()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="jobFunction" duration-ms="293" started-at="2021-07-27T16:02:17Z" finished-at="2021-07-27T16:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobFunction -->
+        <test-method status="PASS" signature="jobTitle()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="jobTitle" duration-ms="268" started-at="2021-07-27T16:02:17Z" finished-at="2021-07-27T16:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobTitle -->
+        <test-method status="PASS" signature="mail()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="mail" duration-ms="231" started-at="2021-07-27T16:02:18Z" finished-at="2021-07-27T16:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+        <test-method status="PASS" signature="Phone()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="Phone" duration-ms="143" started-at="2021-07-27T16:02:18Z" finished-at="2021-07-27T16:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Phone -->
+        <test-method status="PASS" signature="Company()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="Company" duration-ms="182" started-at="2021-07-27T16:02:18Z" finished-at="2021-07-27T16:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company -->
+        <test-method status="PASS" signature="institutionType()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="institutionType" duration-ms="216" started-at="2021-07-27T16:02:18Z" finished-at="2021-07-27T16:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- institutionType -->
+        <test-method status="PASS" signature="primaryDiscipline()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="primaryDiscipline" duration-ms="193" started-at="2021-07-27T16:02:18Z" finished-at="2021-07-27T16:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primaryDiscipline -->
+        <test-method status="PASS" signature="Country()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="Country" duration-ms="454" started-at="2021-07-27T16:02:19Z" finished-at="2021-07-27T16:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Country -->
+        <test-method status="PASS" signature="help()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="help" duration-ms="166" started-at="2021-07-27T16:02:19Z" finished-at="2021-07-27T16:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method status="PASS" signature="submitButton()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="submitButton" duration-ms="98" started-at="2021-07-27T16:02:19Z" finished-at="2021-07-27T16:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcasescenario.TestScenerio@4e7dc304]" name="afterClass" is-config="true" duration-ms="1412" started-at="2021-07-27T16:02:19Z" finished-at="2021-07-27T16:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.IdentifyCourse.testcasescenario.TestScenerio -->
+      <class name="com.IdentifyCourse.testcases.FormFillingTestCase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="beforeClass" is-config="true" duration-ms="3092" started-at="2021-07-27T15:59:11Z" finished-at="2021-07-27T15:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="openWebSite" duration-ms="2286" started-at="2021-07-27T15:59:14Z" finished-at="2021-07-27T15:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method status="PASS" signature="enterprise()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="enterprise" duration-ms="31246" started-at="2021-07-27T15:59:16Z" finished-at="2021-07-27T15:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterprise -->
+        <test-method status="PASS" signature="products()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="products" duration-ms="730" started-at="2021-07-27T15:59:48Z" finished-at="2021-07-27T15:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- products -->
+        <test-method status="PASS" signature="forCampus()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="forCampus" duration-ms="5367" started-at="2021-07-27T15:59:48Z" finished-at="2021-07-27T15:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forCampus -->
+        <test-method status="PASS" signature="formfilling(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="formfilling" duration-ms="4727" started-at="2021-07-27T15:59:54Z" data-provider="test-data1" finished-at="2021-07-27T15:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9123521263]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formfilling -->
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="screenshot" duration-ms="260" started-at="2021-07-27T15:59:58Z" finished-at="2021-07-27T15:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@53f65459]" name="afterClass" is-config="true" duration-ms="1564" started-at="2021-07-27T15:59:59Z" finished-at="2021-07-27T16:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.IdentifyCourse.testcases.FormFillingTestCase -->
+      <class name="com.IdentifyCourse.testcases.LanguageLearningTestCase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="beforeClass" is-config="true" duration-ms="1641" started-at="2021-07-27T16:00:00Z" finished-at="2021-07-27T16:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="openWebSite" duration-ms="3452" started-at="2021-07-27T16:00:02Z" finished-at="2021-07-27T16:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method status="PASS" signature="secondCourse(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="secondCourse" duration-ms="5548" started-at="2021-07-27T16:00:05Z" data-provider="test-data" finished-at="2021-07-27T16:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Language learning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondCourse -->
+        <test-method status="PASS" signature="selectLanguage2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="selectLanguage2" duration-ms="7570" started-at="2021-07-27T16:00:11Z" finished-at="2021-07-27T16:00:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[English
+(1527)
+Spanish
+(802)
+Russian
+(788)
+French
+(731)
+Portuguese (Portugal)
+(673)
+Arabic
+(594)
+German
+(589)
+Vietnamese
+(586)
+Italian
+(559)
+Chinese (China)
+(168)
+Korean
+(154)
+Portuguese (Brazil)
+(75)
+Japanese
+(69)
+Turkish
+(67)
+Persian
+(47)
+Chinese (Traditional)
+(43)
+Greek
+(24)
+Ukrainian
+(20)
+Thai
+(17)
+Portuguese
+(16)
+Hindi
+(14)
+Dutch
+(13)
+Afrikaans
+(12)
+Urdu
+(12)
+Hungarian
+(10)
+Catalan
+(9)
+Javanese
+(8)
+Hebrew
+(7)
+Indonesian
+(7)
+Polish
+(7)
+Mongolian
+(6)
+Romanian
+(6)
+Slovak
+(6)
+Tamil
+(5)
+Czech
+(4)
+Serbian
+(4)
+Albanian
+(3)
+Bengali
+(3)
+Georgian
+(3)
+Swedish
+(3)
+Telugu
+(3)
+Burmese
+(2)
+Croatian
+(2)
+Estonian
+(2)
+Lithuanian
+(2)
+Uzbek
+(2)
+Bulgarian
+(1)
+Kazakh
+(1)
+Marathi
+(1)
+Nepali
+(1)
+Russian (Russia)
+(1)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLanguage2 -->
+        <test-method status="PASS" signature="selectLevel2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="selectLevel2" duration-ms="326" started-at="2021-07-27T16:00:18Z" finished-at="2021-07-27T16:00:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Intermediate
+(745)]]>
+            </line>
+            <line>
+              <![CDATA[Beginner
+(703)]]>
+            </line>
+            <line>
+              <![CDATA[Mixed
+(202)]]>
+            </line>
+            <line>
+              <![CDATA[Advanced
+(76)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLevel2 -->
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="screenshot" duration-ms="385" started-at="2021-07-27T16:00:19Z" finished-at="2021-07-27T16:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@1786dec2]" name="afterClass" is-config="true" duration-ms="1031" started-at="2021-07-27T16:00:19Z" finished-at="2021-07-27T16:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.IdentifyCourse.testcases.LanguageLearningTestCase -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

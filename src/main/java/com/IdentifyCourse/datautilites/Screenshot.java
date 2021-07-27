@@ -2,15 +2,13 @@ package com.IdentifyCourse.datautilites;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
 import com.IdentifyCourse.appmodule.DriverSetup;
+import com.IdentifyCourse.exceptions.ScreenshotNotTakenException;
 
 public class Screenshot extends DriverSetup{
 	
@@ -23,14 +21,13 @@ public class Screenshot extends DriverSetup{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		TakesScreenshot takeScreenShot = ((TakesScreenshot) driver);
 		File srcFile = takeScreenShot.getScreenshotAs(OutputType.FILE);
-		
 		File DestFile = new File("./Screenshots/" + value1 + ".png");
 		
 		try {
 			FileUtils.copyFile(srcFile, DestFile);
 			System.out.println("Screenshot taken successfully");
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (Exception e) {
+			throw new ScreenshotNotTakenException("Screenshot not taken successfully");
 		}
 	}
 

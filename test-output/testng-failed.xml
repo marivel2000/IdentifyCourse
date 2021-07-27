@@ -1,57 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite]">
-  <test parallel="none" name="Test2(failed)">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.IdentifyCourse.testcases.LanguageLearningTestCase">
-        <methods>
-          <include name="openWebSite"/>
-          <include name="secondCourse"/>
-          <include name="afterClass"/>
-          <include name="screenshot"/>
-          <include name="selectLevel2"/>
-          <include name="beforeClass"/>
-          <include name="selectLanguage2"/>
-        </methods>
-      </class> <!-- com.IdentifyCourse.testcases.LanguageLearningTestCase -->
-      <class name="com.IdentifyCourse.testcases.SearchCourseTestCase">
+      <class name="com.IdentifyCourse.testcasescenario.TestScenerio">
         <methods>
           <include name="beforeClass"/>
+          <include name="openLangWebSite"/>
+          <include name="diaplayLevel"/>
+          <include name="displayLanguage"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.IdentifyCourse.testcases.SearchCourseTestCase -->
-      <class name="com.IdentifyCourse.testcases.FormFillingTestCase">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.IdentifyCourse.testcases.FormFillingTestCase -->
+      </class> <!-- com.IdentifyCourse.testcasescenario.TestScenerio -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test parallel="none" name="Test3(failed)">
-    <classes>
-      <class name="com.IdentifyCourse.testcases.LanguageLearningTestCase">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.IdentifyCourse.testcases.LanguageLearningTestCase -->
-      <class name="com.IdentifyCourse.testcases.SearchCourseTestCase">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.IdentifyCourse.testcases.SearchCourseTestCase -->
-      <class name="com.IdentifyCourse.testcases.FormFillingTestCase">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="formfilling"/>
-          <include name="openWebSite"/>
-          <include name="afterClass"/>
-          <include name="screenshot"/>
-          <include name="enterprise"/>
-        </methods>
-      </class> <!-- com.IdentifyCourse.testcases.FormFillingTestCase -->
-    </classes>
-  </test> <!-- Test3(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,9 +1,7 @@
 package com.IdentifyCourse.grid;
 
 import java.util.List;
-
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +13,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.net.URL;
 
+
+/***********Performing Grid operations*********/
 public class Grid {
 	public static WebDriver driver=null;
 	String nodeUrl;

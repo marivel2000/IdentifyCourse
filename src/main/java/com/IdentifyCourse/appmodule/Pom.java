@@ -6,58 +6,68 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-
-
 public class Pom extends DriverSetup{
+
+	private static WebElement element=null;
+	static List<WebElement> elements = null;
 
 	public Pom(WebDriver driver, WebElement element) {
 		super();
 	}
+
+	/***********Fetching the xpath for Search courses*********/
 	static By coursename=By.xpath("//*[contains(@placeholder,'W')]");
-	static By coursenameclick=By.xpath("//*[@id=\"__next\"]/header/div/div/div/div[1]/div[3]/div/form/div/div/div[1]/button[2]/div");
-	
-	static By lang=By.id("react-select-2--value");
+	static By coursenameclick=By.xpath("//button[2]/div");
+	public static By lang=By.id("react-select-2--value");
 	static By langclick=By.id("react-select-2--option-0");
-	
-	static By level=By.id("react-select-3--value");
+	public static By level=By.id("react-select-3--value");
 	static By levelclick=By.id("react-select-3--option-0");
-	
-	static By learning=By.id("react-select-8--value");
+	public static By learning=By.id("react-select-8--value");
 	static By learningclick=By.id("react-select-8--option-1");
-	
-	
-	
-	private static WebElement element=null;
-	
+	static By firstcoursename = By.xpath("//ul[@class='ais-InfiniteHits-list']/li[1]//h2");
+	static By secondcoursename =By.xpath("//ul[@class='ais-InfiniteHits-list']/li[2]//h2");
+	static By firstreview =By.xpath("//ul[@class='ais-InfiniteHits-list']/li[1]//span[@class='ratings-text']");
+	static By secondreview = By.xpath("//ul[@class='ais-InfiniteHits-list']/li[2]//span[@class='ratings-text']");
+	static By button1=By.xpath("//ul[@class='ais-InfiniteHits-list']/li[1]//h2");
+	static By button2=By.xpath("//ul[@class='ais-InfiniteHits-list']/li[2]//h2");
+	static By firstduration=By.xpath("//div[@class='ProductGlance']/div[5]//span");
+	static By secondduration=By.xpath("//div[@class='ProductGlance']/div[6]//span");
+			
+	/***********Fetching the xpath for Language learning*********/
 	static By searchBar=By.xpath("//*[contains(@placeholder,'W')]");
-	static By languageBtn=By.xpath("//*[contains(@class,'Select-pl') and contains(text(),'La')]");
+	public static By languageBtn=By.xpath("//*[contains(@class,'Select-pl') and contains(text(),'La')]");
 	static By showAllButton=By.xpath("//*[contains(text(),'Show All')]");
 	static By allTextLang=By.xpath("//div[@class='filters-modal-content horizontal-box']");
 	static By closeBtn=By.xpath("//a[@class='nostyle']");
-	static By levelsBtn=By.xpath("//div[@id='react-select-3--value']");
-	static By allLevels=By.xpath("//div[@id='react-select-3--list']/div");
+	public static By levelsBtn=By.xpath("//div[@id='react-select-3--value']");
+	public static By allLevels=By.xpath("//div[@id='react-select-3--list']/div");
 	
-	
-	
-	static List<WebElement> elements = null;
-
+	/***********Fetching the xpath for Form filling*********/
 	static By enterprise = By.id("enterprise-link");
 	static By products = By.xpath("//a[text()='Products']");
 	static By forcampus = By.xpath("//a[text()='For Campus' and @rel='noopener']");
 	static By transform = By.xpath("//h2[contains(text(),'Ready to transform your campus?')]");
 	static By firstName = By.xpath("//*[@id='FirstName']");
-    static By lastName = By.xpath("//*[@id=\"LastName\"]");
+    static By lastName = By.xpath("//*[@id='LastName']");
     static By jobFunction = By.xpath("//*[@id='C4C_Job_Title__c']");
-    static By jobTitle = By.xpath("//*[@id=\"Title\"]");
-    static By mail = By.xpath("//*[@id=\"Email\"]");
-    static By Phone = By.xpath("//*[@id=\"Phone\"]");
-    static By Company = By.xpath("//*[@id=\"Company\"]");
-    static By institutionType = By.xpath("//*[@id=\"Institution_Type__c\"]");
-    static By primaryDiscipline = By.xpath("//*[@id=\"Primary_Discipline__c\"]");
-    static By Country = By.xpath("//*[@id=\"Country\"]");
-    static By help=By.xpath("//*[@id=\"What_the_lead_asked_for_on_the_website__c\"]");
-    static By submitButton = By.xpath("//*[@id=\"mktoForm_1512\"]/div[20]/span/button");
+    static By jobTitle = By.xpath("//*[@id='Title']");
+    static By mail = By.xpath("//*[@id='Email']");
+    static By Phone = By.xpath("//*[@id='Phone']");
+    static By Company = By.xpath("//*[@id='Company']");
+    static By institutionType = By.xpath("//*[@id='Institution_Type__c']");
+    static By primaryDiscipline = By.xpath("//*[@id='Primary_Discipline__c']");
+    static By Country = By.xpath("//*[@id='Country']");
+    static By help=By.xpath("//*[@id='What_the_lead_asked_for_on_the_website__c']");
+    static By submitButton = By.xpath("//*[@id='mktoForm_1512']/div[20]/span/button");
     static By email=By.id("ValidMsgEmail");
+    static By state=By.id("State");
+    
+
+    
+	public static WebElement getState() {
+		element=driver.findElement(state);
+		return element;
+	}
 	public static WebElement getCoursename() {
 		element=driver.findElement(coursename);
 		return element;
@@ -88,6 +98,40 @@ public class Pom extends DriverSetup{
 	}
 	public static WebElement getLearningclick() {
 		element=driver.findElement(learningclick);
+		return element;
+	}
+	public static WebElement getFirstcoursename() {
+		element=driver.findElement(firstcoursename);
+		return element;
+	}
+	public static WebElement getSecondcoursename() {
+		element=driver.findElement(secondcoursename);
+		return element;
+	}
+	public static WebElement getFirstreview() {
+		element=driver.findElement(firstreview);
+		return element;
+		
+	}
+	public static WebElement getSecondreview() {
+		element=driver.findElement(secondreview);
+		return element;
+	}
+	public static WebElement getButton1() {
+		element=driver.findElement(button1);
+		return element;
+		
+	}
+	public static WebElement getButton2() {
+		element=driver.findElement(button2);
+		return element;
+	}
+	public static WebElement getFirstduration() {
+		element=driver.findElement(firstduration);
+		return element;
+	}
+	public static WebElement getSecondduration() {
+		element=driver.findElement(secondduration);
 		return element;
 	}
 

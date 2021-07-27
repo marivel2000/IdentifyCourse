@@ -3,37 +3,37 @@
   <reporter-output>
     <line>
       <![CDATA[English
-(1520)
+(1530)
 Spanish
-(795)
+(801)
 Russian
-(782)
+(789)
 French
-(726)
+(733)
 Portuguese (Portugal)
-(668)
+(674)
 Arabic
-(591)
+(595)
 German
-(584)
+(589)
 Vietnamese
-(583)
+(587)
 Italian
-(556)
+(560)
 Chinese (China)
-(163)
+(167)
 Korean
-(151)
+(153)
 Portuguese (Brazil)
-(74)
+(75)
 Japanese
-(67)
+(68)
 Turkish
 (67)
 Persian
 (47)
 Chinese (Traditional)
-(43)
+(44)
 Greek
 (24)
 Ukrainian
@@ -50,9 +50,9 @@ Afrikaans
 (12)
 Urdu
 (12)
-Hungarian
-(10)
 Catalan
+(9)
+Hungarian
 (9)
 Javanese
 (8)
@@ -80,6 +80,8 @@ Bengali
 (3)
 Georgian
 (3)
+Swedish
+(3)
 Telugu
 (3)
 Burmese
@@ -101,28 +103,26 @@ Marathi
 Nepali
 (1)
 Russian (Russia)
-(1)
-Swedish
 (1)]]>
     </line>
     <line>
       <![CDATA[Intermediate
-(739)]]>
+(744)]]>
     </line>
     <line>
       <![CDATA[Beginner
-(706)]]>
+(705)]]>
     </line>
     <line>
       <![CDATA[Mixed
-(200)]]>
+(206)]]>
     </line>
     <line>
       <![CDATA[Advanced
-(74)]]>
+(75)]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-07-21T11:07:53Z" name="Suite" finished-at="2021-07-21T11:10:17Z" duration-ms="143862">
+  <suite started-at="2021-07-27T09:47:07Z" name="Suite" finished-at="2021-07-27T09:49:18Z" duration-ms="130470">
     <groups>
       <group name="Regression">
         <method signature="SearchCourseTestCase.courseDetails()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" name="courseDetails" class="com.IdentifyCourse.testcases.SearchCourseTestCase"/>
@@ -138,53 +138,53 @@ Swedish
         <method signature="LanguageLearningTestCase.selectLevel2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" name="selectLevel2" class="com.IdentifyCourse.testcases.LanguageLearningTestCase"/>
         <method signature="FormFillingTestCase.enterprise()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" name="enterprise" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
         <method signature="FormFillingTestCase.forCampus()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" name="forCampus" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
-        <method signature="FormFillingTestCase.formfilling()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" name="formfilling" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
+        <method signature="FormFillingTestCase.formfilling(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" name="formfilling" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
         <method signature="FormFillingTestCase.products()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" name="products" class="com.IdentifyCourse.testcases.FormFillingTestCase"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-07-21T11:07:53Z" name="Test1" finished-at="2021-07-21T11:08:56Z" duration-ms="63132">
+    <test started-at="2021-07-27T09:47:07Z" name="Test1" finished-at="2021-07-27T09:47:54Z" duration-ms="46306">
       <class name="com.IdentifyCourse.testcases.SearchCourseTestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:37:53Z" name="beforeClass" finished-at="2021-07-21T16:37:55Z" duration-ms="2482" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:07Z" name="beforeClass" finished-at="2021-07-27T15:17:10Z" duration-ms="2447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:37:55Z" name="openWebSite" finished-at="2021-07-21T16:38:18Z" duration-ms="22954" status="PASS">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:10Z" name="openWebSite" finished-at="2021-07-27T15:17:23Z" duration-ms="13604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="execution()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:38:18Z" name="execution" finished-at="2021-07-21T16:38:22Z" duration-ms="3512" status="PASS">
+        <test-method signature="execution()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:23Z" name="execution" finished-at="2021-07-27T15:17:30Z" duration-ms="6876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execution -->
-        <test-method signature="selectLevels()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:38:22Z" name="selectLevels" finished-at="2021-07-21T16:38:26Z" duration-ms="3916" status="PASS">
+        <test-method signature="selectLevels()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:30Z" name="selectLevels" finished-at="2021-07-27T15:17:34Z" duration-ms="3844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLevels -->
-        <test-method signature="courseDetails()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:38:26Z" name="courseDetails" finished-at="2021-07-21T16:38:54Z" duration-ms="28602" status="PASS">
+        <test-method signature="courseDetails()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:34Z" name="courseDetails" finished-at="2021-07-27T15:17:52Z" duration-ms="17586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courseDetails -->
-        <test-method signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:38:54Z" name="screenshot" finished-at="2021-07-21T16:38:55Z" duration-ms="298" status="PASS">
+        <test-method signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:52Z" name="screenshot" finished-at="2021-07-27T15:17:52Z" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-21T16:38:55Z" name="afterClass" finished-at="2021-07-21T16:38:56Z" duration-ms="1312" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.SearchCourseTestCase@74bada02]" started-at="2021-07-27T15:17:52Z" name="afterClass" finished-at="2021-07-27T15:17:54Z" duration-ms="1439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.IdentifyCourse.testcases.SearchCourseTestCase -->
     </test> <!-- Test1 -->
-    <test started-at="2021-07-21T11:08:56Z" name="Test2" finished-at="2021-07-21T11:09:24Z" duration-ms="28016">
+    <test started-at="2021-07-27T09:47:54Z" name="Test2" finished-at="2021-07-27T09:48:12Z" duration-ms="18044">
       <class name="com.IdentifyCourse.testcases.LanguageLearningTestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:38:56Z" name="beforeClass" finished-at="2021-07-21T16:38:58Z" duration-ms="1891" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:17:54Z" name="beforeClass" finished-at="2021-07-27T15:17:55Z" duration-ms="1846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:38:58Z" name="openWebSite" finished-at="2021-07-21T16:39:10Z" duration-ms="12387" status="PASS">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:17:55Z" name="openWebSite" finished-at="2021-07-27T15:18:01Z" duration-ms="5610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="secondCourse(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:39:10Z" name="secondCourse" data-provider="test-data" finished-at="2021-07-21T16:39:17Z" duration-ms="6683" status="PASS">
+        <test-method signature="secondCourse(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:18:01Z" name="secondCourse" data-provider="test-data" finished-at="2021-07-27T15:18:07Z" duration-ms="5747" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,41 +195,41 @@ Swedish
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondCourse -->
-        <test-method signature="selectLanguage2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:39:17Z" name="selectLanguage2" finished-at="2021-07-21T16:39:22Z" duration-ms="5456" status="PASS">
+        <test-method signature="selectLanguage2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:18:07Z" name="selectLanguage2" finished-at="2021-07-27T15:18:10Z" duration-ms="3231" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[English
-(1520)
+(1530)
 Spanish
-(795)
+(801)
 Russian
-(782)
+(789)
 French
-(726)
+(733)
 Portuguese (Portugal)
-(668)
+(674)
 Arabic
-(591)
+(595)
 German
-(584)
+(589)
 Vietnamese
-(583)
+(587)
 Italian
-(556)
+(560)
 Chinese (China)
-(163)
+(167)
 Korean
-(151)
+(153)
 Portuguese (Brazil)
-(74)
+(75)
 Japanese
-(67)
+(68)
 Turkish
 (67)
 Persian
 (47)
 Chinese (Traditional)
-(43)
+(44)
 Greek
 (24)
 Ukrainian
@@ -246,9 +246,9 @@ Afrikaans
 (12)
 Urdu
 (12)
-Hungarian
-(10)
 Catalan
+(9)
+Hungarian
 (9)
 Javanese
 (8)
@@ -276,6 +276,8 @@ Bengali
 (3)
 Georgian
 (3)
+Swedish
+(3)
 Telugu
 (3)
 Burmese
@@ -297,73 +299,78 @@ Marathi
 Nepali
 (1)
 Russian (Russia)
-(1)
-Swedish
 (1)]]>
             </line>
           </reporter-output>
         </test-method> <!-- selectLanguage2 -->
-        <test-method signature="selectLevel2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:39:22Z" name="selectLevel2" finished-at="2021-07-21T16:39:23Z" duration-ms="236" status="PASS">
+        <test-method signature="selectLevel2()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:18:10Z" name="selectLevel2" finished-at="2021-07-27T15:18:10Z" duration-ms="288" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Intermediate
-(739)]]>
+(744)]]>
             </line>
             <line>
               <![CDATA[Beginner
-(706)]]>
+(705)]]>
             </line>
             <line>
               <![CDATA[Mixed
-(200)]]>
+(206)]]>
             </line>
             <line>
               <![CDATA[Advanced
-(74)]]>
+(75)]]>
             </line>
           </reporter-output>
         </test-method> <!-- selectLevel2 -->
-        <test-method signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:39:23Z" name="screenshot" finished-at="2021-07-21T16:39:23Z" duration-ms="286" status="PASS">
+        <test-method signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:18:10Z" name="screenshot" finished-at="2021-07-27T15:18:11Z" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-21T16:39:23Z" name="afterClass" finished-at="2021-07-21T16:39:24Z" duration-ms="1054" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.LanguageLearningTestCase@5674e1f2]" started-at="2021-07-27T15:18:11Z" name="afterClass" finished-at="2021-07-27T15:18:12Z" duration-ms="1040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.IdentifyCourse.testcases.LanguageLearningTestCase -->
     </test> <!-- Test2 -->
-    <test started-at="2021-07-21T11:09:24Z" name="Test3" finished-at="2021-07-21T11:10:17Z" duration-ms="52679">
+    <test started-at="2021-07-27T09:48:12Z" name="Test3" finished-at="2021-07-27T09:49:18Z" duration-ms="66080">
       <class name="com.IdentifyCourse.testcases.FormFillingTestCase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:39:24Z" name="beforeClass" finished-at="2021-07-21T16:39:26Z" duration-ms="1997" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:18:12Z" name="beforeClass" finished-at="2021-07-27T15:18:13Z" duration-ms="1774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:39:26Z" name="openWebSite" finished-at="2021-07-21T16:39:48Z" duration-ms="22136" status="PASS">
+        <test-method signature="openWebSite()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:18:13Z" name="openWebSite" finished-at="2021-07-27T15:18:19Z" duration-ms="5974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebSite -->
-        <test-method signature="enterprise()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:39:48Z" name="enterprise" finished-at="2021-07-21T16:40:01Z" duration-ms="13037" status="PASS">
+        <test-method signature="enterprise()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:18:19Z" name="enterprise" finished-at="2021-07-27T15:19:03Z" duration-ms="43216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterprise -->
-        <test-method signature="products()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:40:01Z" name="products" finished-at="2021-07-21T16:40:02Z" duration-ms="326" status="PASS">
+        <test-method signature="products()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:19:03Z" name="products" finished-at="2021-07-27T15:19:03Z" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- products -->
-        <test-method signature="forCampus()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:40:02Z" name="forCampus" finished-at="2021-07-21T16:40:12Z" duration-ms="10271" status="PASS">
+        <test-method signature="forCampus()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:19:03Z" name="forCampus" finished-at="2021-07-27T15:19:11Z" duration-ms="8300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forCampus -->
-        <test-method signature="formfilling()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:40:12Z" name="formfilling" finished-at="2021-07-21T16:40:15Z" duration-ms="3363" status="PASS">
+        <test-method signature="formfilling(java.lang.String)[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:19:11Z" name="formfilling" data-provider="test-data1" finished-at="2021-07-27T15:19:16Z" duration-ms="4882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9123521263]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formfilling -->
-        <test-method signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:40:15Z" name="screenshot" finished-at="2021-07-21T16:40:16Z" duration-ms="335" status="PASS">
+        <test-method signature="screenshot()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:19:16Z" name="screenshot" finished-at="2021-07-27T15:19:16Z" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-21T16:40:16Z" name="afterClass" finished-at="2021-07-21T16:40:17Z" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.IdentifyCourse.testcases.FormFillingTestCase@2df6226d]" started-at="2021-07-27T15:19:16Z" name="afterClass" finished-at="2021-07-27T15:19:18Z" duration-ms="1261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

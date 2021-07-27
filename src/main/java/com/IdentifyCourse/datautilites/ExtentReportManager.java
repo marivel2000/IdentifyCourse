@@ -1,17 +1,20 @@
 package com.IdentifyCourse.datautilites;
+
 import com.aventstack.extentreports.ExtentReports;
+
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+
 public class ExtentReportManager {
 	
 	public static ExtentReports report;
 	public static ExtentTest test;
 	
-	
 	public static ExtentReports getReportInstance(){
 		
-		/************* To get html reports*************/
+		
+		/*************Fetching Extent Report*************/
 		if(report == null){
 			String reportName = DateUtil.getDate() + ".html";
 			ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\projectoutputs\\"+reportName);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.IdentifyCourse.testcasescenario.TestScenerio">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="openLangWebSite"/>
+          <include name="diaplayLevel"/>
+          <include name="displayLanguage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.IdentifyCourse.testcasescenario.TestScenerio -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
